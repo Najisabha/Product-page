@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+header video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+header .overlay {
+  background-color: rgba(255, 255, 255, 0.699);
+}
+header .overlay .navbar-brand img {
+  padding-top: 20px;
+}
+header .header-text h1 {
+  margin-top: 100px;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #555555;
+}
+
+header .header-text p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: #5d5d5d;
+}
+header .header-butten a {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+header .sell {
+  background-color: #6610f2;
+  border: none;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 0;
+}
+header .header-butten a:nth-last-child(1) {
+  color: #6610f2;
+}
+header .sell:hover {
+  background-color: #6710f22a;
+  color: #6610f2;
+  font-weight: 700;
+  border-radius: 0;
+  border: none;
+}
+/*هون احنا ب اول سكشن (بالأزرار) */
+header .product {
+  position: relative;
+  margin-bottom: 30px;
+}
+header .product .product-img img {
+  width: 100%;
+}
+header .product .product-label img {
+  width: 130px;
+  transform: rotate(-5deg);
+  font-size: 20px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+header .product .product-label p {
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  top: -30px;
+  right: -5px;
+}
+section.features {
+  padding-top: 30px;
+  background-color: #fff;
+}
+section.features .features-text h2 {
+  font-size: 36px;
+  color: #555555;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+
+section.features .features-text hr {
+  width: 22%;
+  margin: 0 auto;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+section .media-feature .d-flex {
+  padding-bottom: 70px;
+}
+
+section .media-feature .d-flex img {
+  margin: 0 80px;
+}
+section.features .media-feature .container > .d-flex:nth-of-type(even) {
+  direction: ltr;
+}
+section.features .media-feature .d-flex h4 {
+  font-size: 32px;
+  padding-right: 24px;
+  padding-left: 24px;
+  color: #6610f2;
+  margin-bottom: 35px;
+  border-right: 5px solid #6610f2;
+}
+
+section.features .media-feature .container > .d-flex:nth-of-type(even) h4 {
+  border-right: 0;
+  border-left: 3px solid #6610f2;
+}
+/*new section*/
+
+section.prices {
+  margin-top: -20px;
+  padding-top: 30px;
+  background-color: #f7f7f7;
+  padding-bottom: 120px;
+}
+section.prices .plan-card .titel {
+  font-size: 24px;
+  color: #6610f2;
+  font-weight: 800;
+  font-family: "Cairo", sans-serif;
+}
+section.prices .plan-card {
+  background-color: #ffffff;
+  border: 1px solid rgb(172, 172, 172);
+}
+section.prices .plan-card h5 {
+  font-size: 36px;
+}
+
+section.prices .plan-card h5 span {
+  font-size: 18px;
+  vertical-align: top;
+}
+/*--------------------------------------*/
+section.prices .plan-card:hover {
+  cursor: pointer;
+}
+section.prices .plan-card:hover {
+  transform: scale(1.11);
+  transition: 0.5s;
+}
+section.prices .plan-card:active {
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+
+section.prices .plan-card ul li {
+  list-style: none;
+  padding-top: 30px;
+}
+section.prices .plan-card ul li:last-child {
+  padding-bottom: 40px;
+}
+/*-------------------------------------*/
+
+section.prices .plan-card .sell-now {
+  border: 2px solid #922cff;
+  background-color: #ffffff;
+  color: #922cff;
+  padding: 10px 40px;
+  margin-bottom: 10px;
+}
+section.prices .price-text h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+section.prices .price-text hr {
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 1.5px;
+}
+
+section.prices .plan-card .sell-now:hover {
+  background-color: #922cff;
+  color: #fff;
+  transition: 0.6s;
+}
+/*-----------------------------------------------*/
+section.faq {
+  background-color: #ffffff;
+  padding-bottom: 60px;
+}
+.faq-titel {
+  padding: 60px 0;
+}
+section.faq .accordion-item .accordion-body p {
+  font-size: 16px;
+  color: #636363;
+}
+section.video {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+section.video video {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.video button {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  transform: translate(50%, 50%);
+}
+section.video .overlay {
+  background-color: hsla(269, 85%, 66%, 0.5);
+  min-height: 100%;
+  position: absolute;
+  inset: 0;
+}
+section.video button i {
+  display: block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 auto 45px;
+}
+
+/**/
+section.end {
+  background-color: #131313;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-right: 150px;
+}
+section.end h4 {
+  font-size: 18px;
+  color: #758594;
+  line-height: 50px;
+}
+section.end form input,
+section.end form textarea {
+  display: block;
+  background-color: #242424;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  color: #aeadad !important;
+  width: 90%;
+}
+
+section.end button {
+  background-color: #a044ff;
+  color: #000;
+  margin: 5px;
+}
+.invalid-feedback {
+  margin: 10px;
+}
+section.end .blog a.blog-link {
+  color: #aeadad;
+  text-decoration: none;
+}
+
+section.end .blog .d-flex {
+  margin-bottom: 20px;
+}
+
+section.end .blog a.blog-link h5 {
+  font-size: 18px;
+  color: #aeadad;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #1d1d1d;
+  padding-top: 30px;
+}
+footer .list-inline .list-inline-item a {
+  background-color: #718292;
+  color: #1d1d1d;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s all ease;
+}
+footer .list-inline .list-inline-item a:hover {
+  background-color: #1479ec;
+}
+footer .list-inline .list-inline-item a i {
+  font-size: 20px;
+}
+.copyrigth a {
+  color: #aeadad;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .product {
+    margin-top: 100px;
+  }
+  .product .product-label {
+    margin-bottom: 100px;
+    width: 150%;
+  }
+  section .media-feature .d-flex {
+    flex-flow: column;
+    text-align: center;
+  }
+  section .media-feature .d-flex img {
+    margin: 0 auto 50px;
+  }
+}
